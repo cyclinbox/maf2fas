@@ -61,7 +61,7 @@ if(__name__=='__main__'):
     python maf2fas <maf> [output fasta]
     <maf>           Input maf/maf.gz file
     [output fasta]  Optional. The output file name.
-                    If empty, the program will use maf file's namd + ".fas" as default name.
+                    If empty, the program will use maf file's name + ".fas" as default name.
     """.strip()
     if(len(sys.argv)<2 or sys.argv[1] in ["-h","--help","/?","/help","/h"]):
         print(Usage)
